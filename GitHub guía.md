@@ -33,6 +33,11 @@ $ ssh-keygen -t rsa -C "your_email@example.com"
 ```
 $ pbcopy < ~/.ssh/id_rsa.pub
 ```
+En Windows, utilizar el comando
+```
+clip < ~/.ssh/id_rsa.pub
+```
+
 
 ## 6. Cambiar rama local por defecto de master a main.
 `git config --global init.defaultBranch main`
