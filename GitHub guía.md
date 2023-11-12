@@ -107,6 +107,9 @@ Cada commit se debería centrar en la adición de cambios relacionados con una s
 - En español se utiliza el infinitivo:
 `git commit -m "Añadir nuevo método para imprimir por pantalla"
 
+# Guía Markdown
+https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
 # Guías en inglés
 https://www.theodinproject.com/lessons/foundations-git-basics
 https://kbroman.org/github_tutorial/
