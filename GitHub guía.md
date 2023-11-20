@@ -13,25 +13,29 @@ https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Instalaci%
 
 ## 3. Setup username y email
 ```
-$ git config --global user.name "Your name here"
-$ git config --global user.email "your_email@example.com"
+git config --global user.name "Your name here"
+```
+```
+git config --global user.email "your_email@example.com"
 ```
 
 ## 4. Personalización
 ```
-$ git config --global color.ui true
-$ git config --global core.editor "code --wait"
+git config --global color.ui true
+```
+```
+git config --global core.editor "code --wait"
 ```
 
 ## 5. Configurar SSH
 ### 5.1. Configurar claves públicas
 ```
-$ ssh-keygen -t rsa -C "your_email@example.com"
+ssh-keygen -t rsa -C "your_email@example.com"
 ```
 
 ### 5.2. Copiar a portapapeles
 ```
-$ pbcopy < ~/.ssh/id_rsa.pub
+pbcopy < ~/.ssh/id_rsa.pub
 ```
 En Windows, utilizar el comando
 ```
@@ -102,6 +106,9 @@ Cada commit se debería centrar en la adición de cambios relacionados con una s
 `git commit -m "Add new method to print on screen"
 - En español se utiliza el infinitivo:
 `git commit -m "Añadir nuevo método para imprimir por pantalla"
+
+# Guía Markdown
+https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 # Guías en inglés
 https://www.theodinproject.com/lessons/foundations-git-basics
