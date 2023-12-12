@@ -22,18 +22,28 @@ Crear una clase de pruebas unitarias con métodos @Test que prueben, mediante as
 
 ---
 ## Ejercicio 3
-Tomando la clase CCuenta del repositorio, depurar el código hasta lograr que tenga el comportamiento adecuado.
+El objetivo de este ejercicio es tomar la clase CCuenta del repositorio y depurar el código hasta lograr que tenga el comportamiento adecuado, sirviéndonos del depurador donde sea necesario, y diseñando una batería de tests para comprobar el funcionamiento.
 
-1. Crear un test que verifique el método ingresar.
-2. Crear un test que verifique el método retirar.
+1. Crear tests que verifiquen el método ingresar.
+2. Crear tests que verifiquen el método retirar.
 
-que existe en el Realizar un programa principal llamado Main.java que cree un objeto con la clase CCuenta, y verifique el correcto funcionamiento de la clase. Para ello debéis realizar las siguientes operaciones:
+### Subtarea 1:
+Crear un pequeño documento donde apuntar los errores que se irán encontrando junto con su solución y un comentario explicativo muy breve.
 
-- Diseñar un caso de prueba que permita verificar el método ingresar.
+### Subtarea 2:
+Logra solucionar los errores que impiden la compilación del programa.
 
-- Diseñar un caso de prueba que permita verificar la función retirar.
-Ejecutar las pruebas mediante la ejecución paso a paso, verificando el correcto funcionamiento, indicando los valores que marca la inspección de variables en cada instrucción que consideréis necesaria y comentar el resultado de vuestras pruebas.
+### Subtarea 3:
+Diseña unas pruebas en JUnit teniendo en cuenta los conceptos de Clases o Particiones de Equivalencia, así como el Análisis de Valores límite.
+
+### Subtarea 4
+Usa el depurador para, durante la ejecución de las pruebas, encontrar los fallos en los métodos `ingresar` y `retirar`.
+
+Ejecuta las pruebas mediante la ejecución paso a paso, verificando el correcto funcionamiento, indicando los valores que marca la inspección de variables en cada instrucción que consideres necesaria y comentar el resultado de las pruebas.
 
 Debéis encontrar errores lógicos o bugs del sistema, modificarlos para su correcto funcionamiento y comentarlos en el documento que estáis creando.
 
-Incluir pantallazos de los resultados de netbeans, de donde poneis los puntos de interrupción y por que, de como accedéis a los métodos o como los saltais, explicar como arrancais la aplicación para iniciar la depuración, o como salta la depuración de un método a otro, etc.
+Incluye en el documento recortes de capturas de pantalla del proceso de depuración donde se puedan observar los valores afectados antes y después del error.
+
+### Subtarea 5
+Sube tu proyecto junto con los tests a un repositorio público. Comparte el enlace a tu repositorio con un compañeros y comentad vuestra elección de valores para los tests.
