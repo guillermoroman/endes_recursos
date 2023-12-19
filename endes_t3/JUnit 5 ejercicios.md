@@ -5,13 +5,9 @@ Además, se quiere testear que convierten los métodos correctamente los valores
 ---
 
 ## Ejercicio 2
-Un banco precisa una clase `ClienteBanco` con dos atributos:
-- `edad`, de tipo entero.
-- `sueldo`, de coma flotante.
+Un banco precisa una clase `Gestor de Tarjetas` que contenga el método estático `emitirTarjeta`
 
-Se precisa crear:
-- Un constructor
-- Un método `emitirTarjeta` que devolverá un String con el tipo de tarjeta otorgada al cliente en función de unos parámetros:
+`emitirTarjeta` admite dos argumentos (`edad` y `sueldo`) y devuelve un String con el tipo de tarjeta otorgada al cliente en función de unos parámetros:
 	- Edad mínima para cualquier tarjeta: 18 años.
 	- Sueldo necesario para la "Tarjeta Dorada":`[800, 1500)`.
 	- Sueldo necesario para la "Tarjeta Platino": `[1500, 3000)`.
