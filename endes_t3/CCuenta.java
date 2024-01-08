@@ -1,5 +1,3 @@
-package ejemplo1;
-
 public class CCuenta {
     private String nombre;
     private String cuenta;
