@@ -2,7 +2,7 @@
 
 En el enfoque estructurado, el problema se abordaría mediante la definición de estructuras de datos y funciones que operan sobre estas estructuras. Por ejemplo, podríamos tener una estructura para los libros y funciones para cada operación.
 
-### Ejemplo 1
+### Ejercicio 1
 
 ```c
 #include <stdio.h>
@@ -42,7 +42,7 @@ void buscarPorAutor(char* autor) {
 ```
 
 
-### Ejemplo 2
+### Ejercicio 2
 
 ```c
 #include <stdio.h>
