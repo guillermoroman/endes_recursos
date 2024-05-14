@@ -69,3 +69,49 @@ Este comando es poderoso y debe usarse con precaución, especialmente con `--har
 ### Video explicativo (inglés)
 Checkout, revert, reset 
 https://youtu.be/RIYrfkZjWmA?si=LYJflGjTrrZIxUME
+
+
+## Git Fork
+
+## Git Pull Request
+
+## Colaborar en GitHub
+
+### Configurar un proyecto para colaborar
+Configurar un repositorio para colaborar entre varios programadores en GitHub (o en plataformas similares como GitLab o Bitbucket) implica varias decisiones y configuraciones para asegurar un flujo de trabajo eficiente y seguro. Aquí te explico cómo hacerlo, quién debe crearlo, cómo gestionar el acceso, y la diferencia entre repositorios públicos y privados:
+
+#### 1. Creación del Repositorio
+Cualquiera que tenga una cuenta en la plataforma elegida (GitHub, GitLab, etc.) puede crear el repositorio. Generalmente, el administrador del proyecto o la persona a cargo de la infraestructura técnica lo hace. Esta persona también será responsable de configurar los permisos iniciales y de mantener el repositorio.
+
+#### 2. Configuración de Acceso
+El creador del repositorio puede configurar quién tiene acceso y a qué nivel. Los niveles de acceso típicos en GitHub, por ejemplo, incluyen:
+
+- **Read**: Puede clonar el repositorio y ver el código, pero no puede hacer cambios.
+- **Write**: Puede clonar, hacer push y modificar el código, pero no puede alterar la configuración principal del repositorio.
+- **Admin**: Tiene control total sobre el repositorio, incluyendo la capacidad de cambiar configuraciones y gestionar permisos de seguridad.
+
+Para agregar colaboradores:
+
+1. Ve al repositorio en GitHub.
+2. Navega a "Settings" > "Manage access".
+3. Haz clic en "Invite a collaborator" e introduce el nombre de usuario o correo electrónico de la persona a la que deseas agregar. Luego selecciona el nivel de permiso apropiado.
+
+
+### Pasos como programador
+
+1. Pull para obtener la versión más actual del repositorio, por si algún compañero ha hecho cambios desde el último pull.
+
+```bash
+git pull origin main
+```
+
+2. Crear una rama y movemos nuestra cabecera a la misma para preservar la rama `main` intacta de momento.
+
+```bash
+git checkout -b nombreRama
+```
+
+3. Realizamos las modificaciones y adiciones deseadas. Podemos preparar archivos para commit, hacer commits, etc. No habrá conflictos dado que son cambios en local en una rama que de momento solo tenemos nosotros.
+4. Podemos hacer un push para subir el trabajo al repositorio remoto, pero se mantendrá todavía dentro de esta nueva rama. Ahora mis colaboradores pueden ver el código y decidir si queremos hacer un merge a la rama main, tras lo cual todos deberán actualizar su rama main desde el repositorio en GitHub.
+
+En GitHub aparecerá el botón `Compare & Pull Request`
