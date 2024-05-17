@@ -7,6 +7,14 @@ https://ohmygit.org
 Juego que cuenta con idioma español para practicar el uso de comandos y visualizar el uso de ramas.
 https://learngitbranching.js.org
 Para cambiar el idioma, una vez comenzado un juego, click en el icono de globo terráqueo en la esquina inferior derecha.
+### Tutorial Pull Requests
+Tutorial original de GitHub sobre uso básico de Pull Requests
+https://docs.github.com/es/get-started/start-your-journey/hello-world
+### Ejercicio interactivo pull requests
+https://github.com/skills/review-pull-requests
+
+
+
 ## Software recomendado
 
 ### GitKraken
