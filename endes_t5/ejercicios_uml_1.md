@@ -20,8 +20,8 @@ Diseña un diagrama de clases para un sistema de venta de entradas online. Las c
 ### Ejercicio 4: Plataforma de Red Social
 Elabora un diagrama de clases para una plataforma de red social. Incluye clases para Usuario, Publicación, Comentario, y Amistad. Considera las interacciones entre usuarios, como hacer amigos y publicar comentarios.
 
-### Ejercicio 5: Sistema de Reservaciones para Hoteles
-Crea un diagrama de clases para un sistema de reservaciones de hoteles. Deberías tener clases para Hotel, Habitación, Cliente, y Reservación. Reflexiona sobre cómo los clientes pueden reservar diferentes tipos de habitaciones en hoteles y cómo esto se puede modelar.
+### Ejercicio 5: Sistema de Reservas para Hoteles
+Crea un diagrama de clases para un sistema de reservas de hoteles. Deberías tener clases para Hotel, Habitación, Cliente, y Reserva. Reflexiona sobre cómo los clientes pueden reservar diferentes tipos de habitaciones en hoteles y cómo esto se puede modelar.
 
 ### Ejercicio 6: Sistema de Gestión de Cursos Online
 Diseña un diagrama de clases para un sistema de gestión de cursos online. Incluye clases para Curso, Estudiante, Instructor, y Evaluación. Piensa en la relación entre estudiantes e instructores, y cómo se asignan las evaluaciones a los cursos.
